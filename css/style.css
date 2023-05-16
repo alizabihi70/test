@@ -1,0 +1,528 @@
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: 900;
+	src: url('https://projeyaab.ir/wp-content/themes/marketica-wp/fonts/eot/IRANSansWeb(FaNum)_Black.eot');
+	src: url('https://projeyaab.ir/wp-content/themes/marketica-wp/fonts/eot/IRANSansWeb(FaNum)_Black.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('https://projeyaab.ir/wp-content/themes/marketica-wp/fonts/woff2/IRANSansWeb(FaNum)_Black.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('https://projeyaab.ir/wp-content/themes/marketica-wp/fonts/woff/IRANSansWeb(FaNum)_Black.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('https://projeyaab.ir/wp-content/themes/marketica-wp/fonts/ttf/IRANSansWeb(FaNum)_Black.ttf') format('truetype');
+}
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: bold;
+	src: url('https://projeyaab.ir/wp-content/themes/marketica-wp/fonts/eot/IRANSansWeb(FaNum)_Bold.eot');
+	src: url('https://projeyaab.ir/wp-content/themes/marketica-wp/fonts/eot/IRANSansWeb(FaNum)_Bold.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('https://projeyaab.ir/wp-content/themes/marketica-wp/fonts/woff2/IRANSansWeb(FaNum)_Bold.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('https://projeyaab.ir/wp-content/themes/marketica-wp/fonts/woff/IRANSansWeb(FaNum)_Bold.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('https://projeyaab.ir/wp-content/themes/marketica-wp/fonts/ttf/IRANSansWeb(FaNum)_Bold.ttf') format('truetype');
+}
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: 500;
+	src: url('https://projeyaab.ir/wp-content/themes/marketica-wp/fonts/eot/IRANSansWeb(FaNum)_Medium.eot');
+	src: url('https://projeyaab.ir/wp-content/themes/marketica-wp/fonts/eot/IRANSansWeb(FaNum)_Medium.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('https://projeyaab.ir/wp-content/themes/marketica-wp/fonts/woff2/IRANSansWeb(FaNum)_Medium.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('https://projeyaab.ir/wp-content/themes/marketica-wp/fonts/woff/IRANSansWeb(FaNum)_Medium.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('https://projeyaab.ir/wp-content/themes/marketica-wp/fonts/ttf/IRANSansWeb(FaNum)_Medium.ttf') format('truetype');
+}
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: 300;
+	src: url('https://projeyaab.ir/wp-content/themes/marketica-wp/fonts/eot/IRANSansWeb(FaNum)_Light.eot');
+	src: url('https://projeyaab.ir/wp-content/themes/marketica-wp/fonts/eot/IRANSansWeb(FaNum)_Light.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('https://projeyaab.ir/wp-content/themes/marketica-wp/fonts/woff2/IRANSansWeb(FaNum)_Light.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('https://projeyaab.ir/wp-content/themes/marketica-wp/fonts/woff/IRANSansWeb(FaNum)_Light.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('https://projeyaab.ir/wp-content/themes/marketica-wp/fonts/ttf/IRANSansWeb(FaNum)_Light.ttf') format('truetype');
+}
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: 200;
+	src: url('https://projeyaab.ir/wp-content/themes/marketica-wp/fonts/eot/IRANSansWeb(FaNum)_UltraLight.eot');
+	src: url('https://projeyaab.ir/wp-content/themes/marketica-wp/fonts/eot/IRANSansWeb(FaNum)_UltraLight.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('https://projeyaab.ir/wp-content/themes/marketica-wp/fonts/woff2/IRANSansWeb(FaNum)_UltraLight.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('https://projeyaab.ir/wp-content/themes/marketica-wp/fonts/woff/IRANSansWeb(FaNum)_UltraLight.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('https://projeyaab.ir/wp-content/themes/marketica-wp/fonts/ttf/IRANSansWeb(FaNum)_UltraLight.ttf') format('truetype');
+}
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: normal;
+	src: url('https://projeyaab.ir/wp-content/themes/marketica-wp/fonts/eot/IRANSansWeb(FaNum).eot');
+	src: url('https://projeyaab.ir/wp-content/themes/marketica-wp/fonts/eot/IRANSansWeb(FaNum).eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('https://projeyaab.ir/wp-content/themes/marketica-wp/fonts/woff2/IRANSansWeb(FaNum).woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('https://projeyaab.ir/wp-content/themes/marketica-wp/fonts/woff/IRANSansWeb(FaNum).woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('https://projeyaab.ir/wp-content/themes/marketica-wpfonts/ttf/IRANSansWeb(FaNum).ttf') format('truetype');
+}
+
+@keyframes blink {
+  0% {
+    height: 0px;
+  }  
+  10% {
+    height: 40px;
+  }
+  20% {
+    height: 0px;
+  }
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  direction:rtl;
+  text-align:right;
+  align-items: center;
+  font-family: IRANSans,arial;
+  color: #999;
+}
+
+.card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 1px 8px 1px lightgray;
+  min-width: 300px;
+  min-height: 300px;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.card_group {
+  display: flex; 
+  border-bottom: 1px solid lightgray;
+  border-color: lightgray;
+  transition: border-color 0.5s;
+  align-items: flex-end;
+  padding: 1rem;
+  justify-content: space-between;
+}
+
+.card_gender {
+  padding: 5px 20px;
+  flex: 1;
+  text-align: center;
+}
+
+.card_gender:not(:first-child) {
+  border-right: 1px solid #bdbdbd;
+}
+
+.card_gender .card_gender-label {
+  transition: color .5s;
+  cursor: pointer
+}
+
+input[type="radio"]:checked+.card_gender-label {
+  color: green;
+}
+
+.card_label { 
+  flex-basis: 25%;
+  max-width: 25%;
+  margin-right: 10px;
+}
+
+.card_input {
+  width: 100%;
+  font-family:IRANSans;
+  box-sizing: border-box;
+  background: none;
+  border: 0;
+  flex: 1;
+  font-size: 14px;
+  color: #999;
+}
+
+.card_input:valid ~ .card_check {
+  transform: scale(1); 
+  background: green;
+}
+
+.card_input:invalid ~ .card_check {
+  background: red;
+  transform: scale(1);
+}
+
+.card_check {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  transform: scale(0);
+  transition: transform .2s;
+  position: relative;
+  margin: 0 0 0 10px;
+}
+
+.card_input:valid ~ .card_check:after {
+  transform: rotate(45deg)scale(1);
+}
+
+.card_input:invalid ~ .card_check:after {
+  transform: rotate(0)scale(1);
+  border-width: 0 2px 0 0;  
+  width: 0px;
+}
+
+.card_check:before {
+  content: '';
+  height: 2px;
+  position: absolute;
+  top: 14px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border-radius: 100%;
+  width: 2px;
+  background: white;
+  transform: scale(0);
+  transition: all .2s;
+}
+
+.card_input:invalid ~ .card_check:before {
+  transform: scale(1)
+}
+
+.card_check:after {
+  position: absolute;
+  content: '';
+  width: 4px;
+  height: 8px;
+  border-color: white;
+  border-width: 0 2px 2px 0;
+  border-style: solid;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 4px;
+  transform: rotate(45deg)scale(0);
+  transition: all .2s;
+}
+
+.card_input:focus {
+  outline: none;
+  border-color: lightblue;
+}
+
+.container {
+  background: #fff4ea;
+  border-radius: 100%;
+  overflow: hidden;
+  height: 235px;
+  width: 235px;
+  margin: 8px auto 25px auto;
+  position: relative;
+}
+
+.address.container:before {
+  transform: translateY(0%);
+}
+
+.container:before {
+  content: '';
+  background-image: url(http://www.westernroofing.net/Editorial_files/buildings%20header.png);
+  bakground-position: center center;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateY(100%);
+  transition: all 1s;
+}
+
+.avatar { 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  justify-content: flex-end;
+  transform: translateY(140px);
+  transition: 1s transform;
+}
+
+.visible .avatar{
+  transform: translateY(20px);
+}
+.avatar_body {
+  background: blue;
+  height: 100px;
+  width: 120px;
+  border-radius: 60px 60px 10px 10px;
+}
+
+.female, .male {
+  margin-top: -20px;
+}
+
+.other .avatar_eyes:before {
+  content: '';
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 51px solid #ffe000;
+    position: absolute;
+    top: -33px;
+    z-index: 999;
+    left: 28px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.other .avatar_head {
+  background: #ffffff;
+}
+
+.other .avatar_head:before {
+  left: 0;
+}
+.other .avatar_head:after {
+  right: 10px;
+}
+.other .avatar_head:before,
+.other .avatar_head:after
+{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    width: 17px;
+    top: -27px;
+    background: white;
+    height: 36px;
+    transform: rotate(-9deg);
+    text-shadow: 1px 1px grey;
+    border-radius: 9px;
+}
+
+.avatar_head {
+  background: #f7d596;
+  height: 100px;
+  width: 90px;
+  position: relative;
+  bottom: -30px;
+  border-radius: 10px 10px 50px 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.female .avatar_hair {
+position: relative;
+  width: 100px;
+  height: 35px;
+background: #ffbc00;
+  clip-path: polygon(5% 5%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+    bottom: -52px;
+    z-index: 2;
+    border-radius: 10px 0 10px 0;
+    transform: rotate(-12deg);
+}
+
+.female.avatar:before {
+  background: #ffbc00;
+  content: '';
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  top: 60px;
+  border-radius: 10px;
+}
+
+.female .avatar_hair {
+      transform: rotate(-13deg);
+    border-radius: 16px;
+}
+.male .avatar_hair {
+  position: relative;
+  width: 100px;
+  height: 35px;
+  background: black;
+  clip-path: polygon(5% 5%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+    bottom: -52px;
+    z-index: 2;
+    border-radius: 10px 0 10px 0;
+    transform: rotate(-16deg);
+}
+
+.male .avatar_curras {
+  background: black;
+  width: 10px;
+  height: 50px;
+  content: '';
+}
+
+.other .avatar_face:before {
+    content: '';
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    bottom: -1px;
+    background: #f5bfff;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+
+.avatar_face { 
+   flex: 1;
+   display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.avatar_mouth:after {
+    right: -18px;
+}
+.avatar_mouth:before {
+    left: -18px;
+}
+
+.other .avatar_mouth {
+  box-shadow: none;
+  background: none;
+}
+
+.other .avatar_curras {
+  position: absolute;
+  top: 88px;
+  left: 50%;
+}
+
+.other .avatar_curras:after {
+  left: 10px;
+}
+.other .avatar_curras:before {
+  right: 10px;
+}
+.other .avatar_curras:after,
+.other .avatar_curras:before {
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  background: gray;
+  content: '';
+  z-index: 1;
+  border-radius: 100%;
+  top: -10px;
+  box-shadow: 0 0 5px 5px #f7c7c3;
+}
+
+.avatar_mouth:after,
+.avatar_mouth:before {
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  background: #f7c7c3;
+  content: '';
+  z-index: 1;
+  border-radius: 100%;
+  top: -10px;
+  box-shadow: 0 0 5px 5px #f7c7c3;
+}
+
+.avatar_eyes {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+  position: relative;
+}
+
+.other .avatar_eyes:after {
+  background: #fff;
+}
+
+.avatar_eyes:after {
+  background: #f7d596;
+  width: 100%;
+  height: 10px;
+  position: absolute;
+  content: '';
+  top: 0px;
+  z-index: 1;
+  animation: blink 5s infinite;
+}
+
+.avatar_eye {
+  background: white;
+  border-radius: 100%;
+  height: 20px;
+  width: 20px;  
+  margin: 10px;
+  position: relative;
+  box-shadow: inset 0px 2px 1px 1px black;
+}
+
+.avatar_pupil {
+  content: '';
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  border-radius: 100%;
+  background: black;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 3px;
+}
+
+.avatar_pupil:after {
+  content: '';
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  border-radius: 100%;
+  background: white;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 3px;
+}
+
+.avatar_mouth {
+  background: #ff7d7d;
+  width: 40px;
+  height: 5px;
+  transition: height .5s;
+  border-radius: 0 0 100% 100%;
+  position: relative;
+  top: 5px;
+  box-shadow: inset 3px 0 0 2px #ff1a1a59;
+}
+button {
+    border: none;
+    background: #1abc9c;
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 6px;
+    width: 200px;
+    color: white;
+    margin-left: 25px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+}button {
+    border: none;
+    background: #1abc9c;
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 6px;
+    width: 200px;
+    color: white;
+    margin-left: 25px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+}
+button {
+    border: none;
+    background: #1abc9c;
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 6px;
+    width: 100%;
+  font:16px IRANSans;
+    color: white;
+
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+}
